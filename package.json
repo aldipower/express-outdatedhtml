@@ -1,0 +1,17 @@
+{
+  "name": "express-outdatedhtml",
+  "description": "Replaces HTML5-element-names with proven old ones, on-the-fly during view render, to reach IE compatibility.",
+  "version": "0.0.1",
+  "author": "Felix Gertz <nihil.baxter.dev@gmail.com>",
+  "contributors": [ 
+    { "name": "Felix Gertz", "email": "nihil.baxter.dev@gmail.com" }
+  ],
+  "dependencies": {  
+	"useragent": ">= 1.0.3"
+  },
+  "keywords": ["html5", "internet", "explorer", "replacement", "div", "element", "tag", "replace", "web"],
+  "homepage": "https://github.com/aldipower/express-outdatedhtml",
+  "repository": "git://github.com/aldipower/express-outdatedhtml.git",
+  "main": "index",
+  "engines": { "node": ">= 0.4.1" }
+}
