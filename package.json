@@ -1,6 +1,6 @@
 {
   "name": "express-outdatedhtml",
-  "description": "Replaces HTML5-element-names with proven old ones, on-the-fly during view render, to reach IE compatibility.",
+  "description": "Replace HTML5-element-names with proven old ones, on-the-fly during view render, to reach IE compatibility.",
   "version": "0.0.1",
   "author": "Felix Gertz <nihil.baxter.dev@gmail.com>",
   "contributors": [ 

@@ -1,7 +1,7 @@
 
 # express-outdatedhtml
       
-Replaces HTML5-element-names with proven old ones, on-the-fly during view render, to reach IE compatibility.
+Replace HTML5-element-names with proven old ones to reach IE compatibility, on-the-fly during view render.
   
 Make sites outdated by replace the new HTML5-element-names, such as 'canvas', 'section', etc. with proven ones like 'div'.
 This is happening on-the-fly by parsing the 'view render results'-string of the Express-framework.
@@ -28,8 +28,9 @@ Simply pass the 'makeoutdated'-function as third argument to the Express view re
 The 'makeoutdated'-function returns a callback for the render function.
 
 There is an automatically detection which browser type is used and the replacement is only done while using the Internet Explorer smaller 9.
+
 ```javascript
-app.get('/', function(req, res){
+app.get('/', function(req, res) {
     res.render('index.jade', 
 		    	{ title: 'My Site' },
 		    	outdatedhtml.makeoutdated(req, res)
@@ -38,24 +39,20 @@ app.get('/', function(req, res){
 ```
 
 If you want to force the replacement with any browser, you can set the third argument to 'true'.
+
 ```javascript
 outdatedhtml.makeoutdated(req, res, true)
 ```
 
 You also can pass another view render callback for further processing.
+
 ```javascript
 outdatedhtml.makeoutdated(req, res, viewrendercallback)
 ``` 
 
-## Arguments
+### Arguments
 
 outdatedhtml.makeoutdated(req, res, [force, [viewrendercallback]])
-
-### Features
-
-  * Querys the reCaptcha server from within Node.JS
-  * Server response comes in asyncronously
-  * Generates the reCaptcha-HTML to embed in a website
 
 ### Authors
 
