@@ -56,7 +56,7 @@ outdatedhtml.makeoutdated(req, res, [force, [viewrendercallback]])
 
 ### Authors
 
-The following are the major authors of the reCaptcha Node.JS module.
+The following are the major authors of the express-makeoutdated module.
 
   * Felix Gertz (https://github.com/aldipower)
 
