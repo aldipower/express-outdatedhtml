@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/aldipower/express-outdatedhtml.png)](http://travis-ci.org/aldipower/express-outdatedhtml)
 
 # express-outdatedhtml
       
